@@ -1,0 +1,141 @@
+/* ==================================== */
+/* GENERAL */
+/* ==================================== */
+
+:root {
+  --color-theme-brown: #1d191a;
+  --color-theme-brown-light: #343031;
+  --color-black: #000;
+  --color-white: #fff;
+
+  --color-bg-brown: #292526;
+  --color-bg-brown-text: #6c696a;
+  --color-bg-brown-dark-text: #aba9aa;
+
+  --color-bg-grey: #dfdfdf;
+  --color-bg-black: #393939;
+  --color-bg-black-text: #ebebeb;
+
+  --color-btn-primary: #da5301;
+  --color-btn-hover: #c44b01;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  color: var(--color-theme-brown);
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.text {
+  font-size: 1.6rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4.8rem;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.weight-regular {
+  font-weight: 400;
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading-primary {
+  font-size: 3.6rem;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+}
+
+.heading-tertiary {
+  font-size: 2.4rem;
+}
+
+.heading-tertiary-sm {
+  font-size: 1.8rem;
+}
+
+.margin-bottom-large {
+  margin-bottom: 6.4rem;
+}
+
+.margin-bottom {
+  margin-bottom: 3.2rem;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 2.4rem;
+}
+
+.section-heading-desc {
+  font-size: 1.6rem;
+  padding: 0 19.2rem;
+}
+
+.text-fff {
+  color: var(--color-white);
+}
+
+.text-brown {
+  color: var(--color-bg-brown-text);
+}
+
+.text-brown-sm {
+  color: var(--color-bg-brown-text) !important;
+  font-size: 1.2rem !important;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.block {
+  display: block !important;
+}
